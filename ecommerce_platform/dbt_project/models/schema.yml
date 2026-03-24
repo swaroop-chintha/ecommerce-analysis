@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: dim_users
+    columns:
+      - name: user_key
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    columns:
+      - name: product_key
+        tests:
+          - unique
+          - not_null
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_orders
+    columns:
+      - name: item_id
+        tests:
+          - unique
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['placed', 'shipped', 'delivered', 'cancelled']
+      - name: user_key
+        tests:
+          - relationships:
+              to: ref('dim_users')
+              field: user_key
+
+  - name: fact_events
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: event_type
+        tests:
+          - accepted_values:
+              values: ['page_view', 'product_click', 'add_to_cart', 'remove_from_cart', 'checkout_start', 'purchase_complete']
+      - name: product_key
+        tests:
+          - relationships:
+              to: ref('dim_products')
+              field: product_key

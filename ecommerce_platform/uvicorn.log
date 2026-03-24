@@ -1,0 +1,16 @@
+INFO:     Started server process [69347]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+Inventory refreshed in background.
+INFO:     127.0.0.1:51059 - "GET /docs HTTP/1.1" 200 OK
+Inventory refreshed in background.
+Inventory refreshed in background.
+INFO:     127.0.0.1:51171 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51171 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Inventory refreshed in background.
+Inventory refreshed in background.
+Inventory refreshed in background.
+INFO:     127.0.0.1:51822 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51928 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51928 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found

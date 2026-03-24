@@ -1,0 +1,15 @@
+/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/utils/timezone.py:32: DeprecationWarning: The '__version__' attribute is deprecated and will be removed in Pendulum 3.4. Use 'importlib.metadata.version("pendulum")' instead.
+  _PENDULUM3 = pendulum.__version__.startswith("3")
+standalone | Starting Airflow Standalone
+standalone | Checking database is initialized
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+WARNI [unusual_prefix_76d36740bc896b2d0e67b68f7ede64b7a4f89191_example_local_kubernetes_executor] Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+WARNI [unusual_prefix_76d36740bc896b2d0e67b68f7ede64b7a4f89191_example_local_kubernetes_executor] Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+WARNI [unusual_prefix_d0c1a6ec4c7b87e5548410cc13c692cf03458678_example_kubernetes_executor] The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+WARNI [airflow.models.crypto] empty cryptography key - values will not be stored encrypted.
+/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/flask_limiter/extension.py:324 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.

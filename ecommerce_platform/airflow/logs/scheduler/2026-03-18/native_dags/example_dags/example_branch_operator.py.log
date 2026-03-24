@@ -1,0 +1,322 @@
+[2026-03-18T07:19:23.717+0530] {processor.py:161} INFO - Started process (PID=98779) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:19:23.717+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:19:23.718+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:19:23.718+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:19:23.730+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:19:23.729+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:19:23.730+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:19:23.758+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.041 seconds
+[2026-03-18T07:23:25.360+0530] {processor.py:161} INFO - Started process (PID=3235) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:23:25.361+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:23:25.361+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:23:25.361+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:23:25.372+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:23:25.371+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:23:25.372+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:23:25.396+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
+[2026-03-18T07:26:14.611+0530] {processor.py:161} INFO - Started process (PID=3746) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:26:14.612+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:26:14.612+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:26:14.612+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:26:14.623+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:26:14.622+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:26:14.623+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:26:14.648+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.038 seconds
+[2026-03-18T07:28:58.727+0530] {processor.py:161} INFO - Started process (PID=4235) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:28:58.728+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:28:58.728+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:28:58.728+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:28:58.739+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:28:58.738+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:28:58.739+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:28:58.766+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.040 seconds
+[2026-03-18T07:31:43.295+0530] {processor.py:161} INFO - Started process (PID=4725) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:31:43.295+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:31:43.295+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:31:43.295+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:31:43.306+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:31:43.305+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:31:43.306+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:31:43.331+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
+[2026-03-18T07:34:36.742+0530] {processor.py:161} INFO - Started process (PID=5267) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:34:36.743+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:34:36.743+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:34:36.743+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:34:36.754+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:34:36.754+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:34:36.755+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:34:36.780+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.038 seconds
+[2026-03-18T07:37:40.322+0530] {processor.py:161} INFO - Started process (PID=5825) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:37:40.323+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:37:40.323+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:37:40.323+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:37:40.334+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:37:40.333+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:37:40.334+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:37:40.358+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
+[2026-03-18T07:40:41.039+0530] {processor.py:161} INFO - Started process (PID=6483) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:40:41.040+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:40:41.040+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:40:41.040+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:40:41.052+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:40:41.051+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:40:41.052+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:40:41.077+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.038 seconds
+[2026-03-18T07:43:54.393+0530] {processor.py:161} INFO - Started process (PID=7166) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:43:54.394+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:43:54.394+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:43:54.394+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:43:54.406+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:43:54.405+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:43:54.406+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:43:54.431+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.038 seconds
+[2026-03-18T07:46:41.994+0530] {processor.py:161} INFO - Started process (PID=7738) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:46:41.995+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:46:41.995+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:46:41.995+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:46:42.006+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:46:42.005+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:46:42.006+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:46:42.030+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
+[2026-03-18T07:49:29.837+0530] {processor.py:161} INFO - Started process (PID=8687) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:49:29.840+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:49:29.840+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:49:29.840+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:49:29.851+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:49:29.850+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:49:29.851+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:49:29.875+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.039 seconds
+[2026-03-18T07:52:21.743+0530] {processor.py:161} INFO - Started process (PID=10115) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:52:21.744+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:52:21.744+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:52:21.744+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:52:21.757+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:52:21.757+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:52:21.758+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:52:21.783+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.041 seconds
+[2026-03-18T07:54:30.033+0530] {processor.py:161} INFO - Started process (PID=11009) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:54:30.033+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:54:30.034+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:54:30.034+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:54:30.045+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:54:30.044+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:54:30.045+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:54:30.069+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
+[2026-03-18T07:57:30.507+0530] {processor.py:161} INFO - Started process (PID=11530) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:57:30.508+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-03-18T07:57:30.508+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:57:30.508+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:57:30.519+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:57:30.519+0530] {dagbag.py:350} ERROR - Failed to import: /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 591, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2026-03-18T07:57:30.520+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-03-18T07:57:30.543+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
