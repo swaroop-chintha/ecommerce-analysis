@@ -1,0 +1,26 @@
+# Environment - NEVER commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Data files - too large for GitHub
+data/
+*.db
+*.duckdb
+*.parquet
+
+# dbt
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+
+# OS
+.DS_Store
