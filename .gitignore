@@ -12,6 +12,7 @@ data/
 *.db
 *.duckdb
 *.parquet
+!ecommerce_platform/data/demo/*.parquet
 
 # dbt
 dbt_project/target/

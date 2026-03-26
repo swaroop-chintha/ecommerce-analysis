@@ -1,0 +1,616 @@
+[2026-03-18T00:02:17.779+0530] {processor.py:161} INFO - Started process (PID=88117) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:02:17.780+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:02:17.780+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:02:17.780+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:02:17.793+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:02:17.792+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:02:17.793+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:02:17.793+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:02:17.793+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:02:17.819+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2026-03-18T00:04:32.382+0530] {processor.py:161} INFO - Started process (PID=90155) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:04:32.383+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:04:32.384+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:04:32.384+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:04:32.399+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:04:32.399+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:04:32.399+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:04:32.399+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:04:32.399+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:04:32.425+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.043 seconds
+[2026-03-18T00:08:15.154+0530] {processor.py:161} INFO - Started process (PID=93360) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:08:15.155+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:08:15.156+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:08:15.155+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:08:15.174+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:08:15.174+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:08:15.175+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:08:15.174+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:08:15.175+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:08:15.209+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.056 seconds
+[2026-03-18T00:13:11.428+0530] {processor.py:161} INFO - Started process (PID=96575) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:13:11.430+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:13:11.430+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:13:11.430+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:13:11.453+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:13:11.452+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:13:11.453+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:13:11.453+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:13:11.453+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:13:11.493+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.065 seconds
+[2026-03-18T00:15:52.389+0530] {processor.py:161} INFO - Started process (PID=98182) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:15:52.391+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:15:52.392+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:15:52.391+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:15:52.418+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:15:52.417+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:15:52.418+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:15:52.418+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:15:52.418+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:15:52.470+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.082 seconds
+[2026-03-18T00:18:25.146+0530] {processor.py:161} INFO - Started process (PID=99823) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:18:25.148+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:18:25.149+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:18:25.149+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:18:25.175+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:18:25.174+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:18:25.175+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:18:25.175+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:18:25.175+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:18:25.219+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.074 seconds
+[2026-03-18T00:21:02.746+0530] {processor.py:161} INFO - Started process (PID=2039) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:21:02.748+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:21:02.749+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:21:02.749+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:21:02.770+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:21:02.770+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:21:02.771+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:21:02.771+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:21:02.771+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:21:02.811+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.065 seconds
+[2026-03-18T00:23:43.019+0530] {processor.py:161} INFO - Started process (PID=3688) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:23:43.021+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:23:43.022+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:23:43.022+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:23:43.043+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:23:43.043+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:23:43.044+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:23:43.043+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:23:43.044+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:23:43.083+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.065 seconds
+[2026-03-18T00:26:30.309+0530] {processor.py:161} INFO - Started process (PID=5267) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:26:30.310+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:26:30.310+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:26:30.310+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:26:30.332+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:26:30.331+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:26:30.332+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:26:30.332+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:26:30.332+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:26:30.373+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.064 seconds
+[2026-03-18T00:31:54.466+0530] {processor.py:161} INFO - Started process (PID=8333) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:31:54.468+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:31:54.468+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:31:54.468+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:31:54.492+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:31:54.491+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:31:54.492+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:31:54.492+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:31:54.492+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:31:54.540+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.075 seconds
+[2026-03-18T00:34:36.426+0530] {processor.py:161} INFO - Started process (PID=9946) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:34:36.427+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:34:36.428+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:34:36.428+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:34:36.454+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:34:36.454+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:34:36.454+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:34:36.454+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:34:36.455+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:34:36.510+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.084 seconds
+[2026-03-18T00:37:19.937+0530] {processor.py:161} INFO - Started process (PID=11582) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:37:19.938+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:37:19.939+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:37:19.938+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:37:19.961+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:37:19.960+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:37:19.961+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:37:19.961+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:37:19.961+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:37:20.006+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.070 seconds
+[2026-03-18T00:40:05.436+0530] {processor.py:161} INFO - Started process (PID=13181) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:40:05.438+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:40:05.439+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:40:05.439+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:40:05.472+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:40:05.471+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:40:05.472+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:40:05.472+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:40:05.472+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:40:05.530+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.095 seconds
+[2026-03-18T00:42:56.039+0530] {processor.py:161} INFO - Started process (PID=14860) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:42:56.041+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:42:56.042+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:42:56.042+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:42:56.068+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:42:56.067+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:42:56.068+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:42:56.068+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:42:56.068+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:42:56.111+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.072 seconds
+[2026-03-18T00:45:39.472+0530] {processor.py:161} INFO - Started process (PID=16509) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:45:39.473+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:45:39.473+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:45:39.473+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:45:39.497+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:45:39.496+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:45:39.497+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:45:39.497+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:45:39.497+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:45:39.537+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.066 seconds
+[2026-03-18T00:48:21.041+0530] {processor.py:161} INFO - Started process (PID=18150) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:48:21.042+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:48:21.043+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:48:21.043+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:48:21.064+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:48:21.064+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:48:21.065+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:48:21.065+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:48:21.065+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:48:21.105+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.065 seconds
+[2026-03-18T00:51:04.897+0530] {processor.py:161} INFO - Started process (PID=19807) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:51:04.899+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:51:04.899+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:51:04.899+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:51:04.924+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:51:04.923+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:51:04.924+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:51:04.924+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:51:04.924+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:51:04.972+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.076 seconds
+[2026-03-18T00:53:50.220+0530] {processor.py:161} INFO - Started process (PID=21423) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:53:50.221+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:53:50.222+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:53:50.222+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:53:50.248+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:53:50.247+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:53:50.248+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:53:50.248+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:53:50.248+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:53:50.300+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.081 seconds
+[2026-03-18T00:56:32.402+0530] {processor.py:161} INFO - Started process (PID=23036) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:56:32.404+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T00:56:32.404+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:56:32.404+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:56:32.430+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:56:32.429+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T00:56:32.430+0530] {logging_mixin.py:188} INFO - [2026-03-18T00:56:32.430+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T00:56:32.430+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T00:56:32.474+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.073 seconds
+[2026-03-18T01:00:59.318+0530] {processor.py:161} INFO - Started process (PID=26217) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:00:59.320+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:00:59.320+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:00:59.320+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:00:59.343+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:00:59.342+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:00:59.343+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:00:59.343+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:00:59.343+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:00:59.382+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.065 seconds
+[2026-03-18T01:04:12.150+0530] {processor.py:161} INFO - Started process (PID=28166) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:04:12.152+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:04:12.153+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:04:12.153+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:04:12.181+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:04:12.181+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:04:12.181+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:04:12.181+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:04:12.182+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:04:12.228+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.079 seconds
+[2026-03-18T01:06:55.195+0530] {processor.py:161} INFO - Started process (PID=29777) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:06:55.198+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:06:55.199+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:06:55.199+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:06:55.221+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:06:55.221+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:06:55.222+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:06:55.221+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:06:55.222+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:06:55.262+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.067 seconds
+[2026-03-18T01:09:39.866+0530] {processor.py:161} INFO - Started process (PID=31444) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:09:39.870+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:09:39.871+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:09:39.871+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:09:39.909+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:09:39.909+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:09:39.910+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:09:39.909+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:09:39.910+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:09:39.978+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.113 seconds
+[2026-03-18T01:12:33.610+0530] {processor.py:161} INFO - Started process (PID=33057) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:12:33.613+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:12:33.613+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:12:33.613+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:12:33.635+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:12:33.634+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:12:33.635+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:12:33.635+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:12:33.635+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:12:33.673+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.064 seconds
+[2026-03-18T01:15:14.395+0530] {processor.py:161} INFO - Started process (PID=34712) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:15:14.397+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:15:14.397+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:15:14.397+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:15:14.419+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:15:14.418+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:15:14.419+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:15:14.419+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:15:14.419+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:15:14.459+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.064 seconds
+[2026-03-18T01:17:50.644+0530] {processor.py:161} INFO - Started process (PID=36328) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:17:50.646+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:17:50.646+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:17:50.646+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:17:50.670+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:17:50.670+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:17:50.670+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:17:50.670+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:17:50.671+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:17:50.713+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.070 seconds
+[2026-03-18T01:20:32.689+0530] {processor.py:161} INFO - Started process (PID=37957) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:20:32.690+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:20:32.691+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:20:32.690+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:20:32.713+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:20:32.713+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:20:32.713+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:20:32.713+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:20:32.714+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:20:32.756+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.067 seconds
+[2026-03-18T01:25:29.207+0530] {processor.py:161} INFO - Started process (PID=41113) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:25:29.208+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:25:29.209+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:25:29.209+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:25:29.233+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:25:29.232+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:25:29.233+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:25:29.233+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:25:29.233+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:25:29.273+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.067 seconds
+[2026-03-18T01:27:58.825+0530] {processor.py:161} INFO - Started process (PID=42727) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:27:58.826+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:27:58.826+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:27:58.826+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:27:58.847+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:27:58.846+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:27:58.847+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:27:58.847+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:27:58.847+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:27:58.887+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.063 seconds
+[2026-03-18T01:32:59.467+0530] {processor.py:161} INFO - Started process (PID=45882) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:32:59.468+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:32:59.469+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:32:59.469+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:32:59.496+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:32:59.496+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:32:59.496+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:32:59.496+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:32:59.497+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:32:59.546+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.080 seconds
+[2026-03-18T01:37:55.873+0530] {processor.py:161} INFO - Started process (PID=49041) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:37:55.875+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:37:55.875+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:37:55.875+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:37:55.900+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:37:55.900+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:37:55.901+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:37:55.901+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:37:55.901+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:37:55.945+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.073 seconds
+[2026-03-18T01:40:46.109+0530] {processor.py:161} INFO - Started process (PID=50589) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:40:46.110+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:40:46.111+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:40:46.111+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:40:46.137+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:40:46.136+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:40:46.137+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:40:46.137+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:40:46.137+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:40:46.191+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.083 seconds
+[2026-03-18T01:43:39.429+0530] {processor.py:161} INFO - Started process (PID=52155) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:43:39.430+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:43:39.431+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:43:39.430+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:43:39.458+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:43:39.457+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:43:39.458+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:43:39.458+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:43:39.458+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:43:39.508+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.080 seconds
+[2026-03-18T01:46:28.993+0530] {processor.py:161} INFO - Started process (PID=53675) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:46:28.994+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:46:28.995+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:46:28.995+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:46:29.022+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:46:29.021+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:46:29.022+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:46:29.022+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:46:29.022+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:46:29.076+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.084 seconds
+[2026-03-18T01:49:19.794+0530] {processor.py:161} INFO - Started process (PID=55217) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:49:19.796+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:49:19.796+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:49:19.796+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:49:19.823+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:49:19.822+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:49:19.823+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:49:19.823+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:49:19.823+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:49:19.874+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.081 seconds
+[2026-03-18T01:52:11.178+0530] {processor.py:161} INFO - Started process (PID=56777) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:52:11.179+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:52:11.180+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:52:11.180+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:52:11.205+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:52:11.204+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:52:11.205+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:52:11.205+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:52:11.205+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:52:11.253+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.076 seconds
+[2026-03-18T01:55:00.632+0530] {processor.py:161} INFO - Started process (PID=58316) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:55:00.633+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:55:00.634+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:55:00.634+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:55:00.662+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:55:00.662+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:55:00.663+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:55:00.663+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:55:00.663+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:55:00.718+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.086 seconds
+[2026-03-18T01:57:52.768+0530] {processor.py:161} INFO - Started process (PID=59883) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:57:52.770+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T01:57:52.770+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:57:52.770+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:57:52.794+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:57:52.794+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T01:57:52.794+0530] {logging_mixin.py:188} INFO - [2026-03-18T01:57:52.794+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T01:57:52.794+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T01:57:52.841+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.074 seconds
+[2026-03-18T02:00:40.132+0530] {processor.py:161} INFO - Started process (PID=61439) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:00:40.133+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:00:40.134+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:00:40.134+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:00:40.159+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:00:40.158+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:00:40.159+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:00:40.159+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:00:40.159+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:00:40.210+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.078 seconds
+[2026-03-18T02:03:28.280+0530] {processor.py:161} INFO - Started process (PID=62992) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:03:28.283+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:03:28.283+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:03:28.283+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:03:28.307+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:03:28.306+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:03:28.307+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:03:28.307+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:03:28.307+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:03:28.353+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.073 seconds
+[2026-03-18T02:06:11.088+0530] {processor.py:161} INFO - Started process (PID=64582) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:06:11.092+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:06:11.092+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:06:11.092+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:06:11.112+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:06:11.111+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:06:11.112+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:06:11.112+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:06:11.112+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:06:11.147+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.059 seconds
+[2026-03-18T02:10:50.374+0530] {processor.py:161} INFO - Started process (PID=67884) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:10:50.376+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:10:50.377+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:10:50.377+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:10:50.397+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:10:50.397+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:10:50.397+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:10:50.397+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:10:50.398+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:10:50.436+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.062 seconds
+[2026-03-18T02:16:08.655+0530] {processor.py:161} INFO - Started process (PID=70974) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:16:08.657+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:16:08.657+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:16:08.657+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:16:08.681+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:16:08.681+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:16:08.681+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:16:08.681+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:16:08.681+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:16:08.727+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.072 seconds
+[2026-03-18T02:18:59.675+0530] {processor.py:161} INFO - Started process (PID=72576) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:18:59.676+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:18:59.676+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:18:59.676+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:18:59.702+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:18:59.701+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:18:59.702+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:18:59.702+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:18:59.702+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:18:59.749+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.075 seconds
+[2026-03-18T02:21:46.675+0530] {processor.py:161} INFO - Started process (PID=74129) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:21:46.677+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:21:46.677+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:21:46.677+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:21:46.702+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:21:46.701+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:21:46.702+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:21:46.702+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:21:46.702+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:21:46.751+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.077 seconds
+[2026-03-18T02:24:33.611+0530] {processor.py:161} INFO - Started process (PID=75698) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:24:33.612+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:24:33.613+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:24:33.613+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:24:33.637+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:24:33.636+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:24:33.637+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:24:33.637+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:24:33.637+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:24:33.683+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.073 seconds
+[2026-03-18T02:27:18.789+0530] {processor.py:161} INFO - Started process (PID=77253) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:27:18.790+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:27:18.791+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:27:18.791+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:27:18.814+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:27:18.814+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:27:18.814+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:27:18.814+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:27:18.815+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:27:18.860+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.072 seconds
+[2026-03-18T02:30:04.099+0530] {processor.py:161} INFO - Started process (PID=78837) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:30:04.101+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:30:04.102+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:30:04.102+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:30:04.126+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:30:04.126+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:30:04.127+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:30:04.126+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:30:04.127+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:30:04.175+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.077 seconds
+[2026-03-18T02:32:46.779+0530] {processor.py:161} INFO - Started process (PID=80418) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:32:46.781+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:32:46.781+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:32:46.781+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:32:46.806+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:32:46.805+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:32:46.806+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:32:46.806+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:32:46.806+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:32:46.853+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.075 seconds
+[2026-03-18T02:35:30.240+0530] {processor.py:161} INFO - Started process (PID=81980) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:35:30.242+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:35:30.242+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:35:30.242+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:35:30.267+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:35:30.266+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:35:30.267+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:35:30.267+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:35:30.267+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:35:30.312+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.073 seconds
+[2026-03-18T02:38:12.277+0530] {processor.py:161} INFO - Started process (PID=83536) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:38:12.280+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:38:12.280+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:38:12.280+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:38:12.304+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:38:12.303+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:38:12.304+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:38:12.304+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:38:12.304+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:38:12.348+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.072 seconds
+[2026-03-18T02:40:55.364+0530] {processor.py:161} INFO - Started process (PID=85117) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:40:55.367+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:40:55.368+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:40:55.368+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:40:55.392+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:40:55.391+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:40:55.392+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:40:55.392+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:40:55.392+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:40:55.439+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.076 seconds
+[2026-03-18T02:43:36.125+0530] {processor.py:161} INFO - Started process (PID=86695) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:43:36.127+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:43:36.128+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:43:36.127+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:43:36.149+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:43:36.149+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:43:36.150+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:43:36.150+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:43:36.150+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:43:36.188+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.063 seconds
+[2026-03-18T02:48:28.861+0530] {processor.py:161} INFO - Started process (PID=89933) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:48:28.864+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:48:28.865+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:48:28.865+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:48:28.886+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:48:28.885+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:48:28.886+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:48:28.886+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:48:28.886+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:48:28.923+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.063 seconds
+[2026-03-18T02:53:03.750+0530] {processor.py:161} INFO - Started process (PID=93265) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:53:03.754+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T02:53:03.754+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:53:03.754+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:53:03.773+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:53:03.773+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T02:53:03.773+0530] {logging_mixin.py:188} INFO - [2026-03-18T02:53:03.773+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T02:53:03.773+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T02:53:03.806+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.057 seconds
+[2026-03-18T04:52:25.861+0530] {processor.py:161} INFO - Started process (PID=96450) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T04:52:25.865+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-18T04:52:25.865+0530] {logging_mixin.py:188} INFO - [2026-03-18T04:52:25.865+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T04:52:25.878+0530] {logging_mixin.py:188} INFO - [2026-03-18T04:52:25.878+0530] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-18T04:52:25.878+0530] {logging_mixin.py:188} INFO - [2026-03-18T04:52:25.878+0530] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-18T04:52:25.878+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-18T04:52:25.902+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.041 seconds

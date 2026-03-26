@@ -1,0 +1,196 @@
+[2026-03-18T07:19:34.629+0530] {processor.py:161} INFO - Started process (PID=98948) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:19:34.630+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:19:34.630+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:19:34.630+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:19:34.641+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:19:34.678+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:19:34.678+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:19:34.684+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:19:34.684+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-16 02:00:00+00:00, run_after=2026-03-17 02:00:00+00:00
+[2026-03-18T07:19:34.691+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.062 seconds
+[2026-03-18T07:20:37.088+0530] {processor.py:161} INFO - Started process (PID=1232) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:20:37.088+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:20:37.089+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:20:37.088+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:20:37.099+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:20:37.134+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:20:37.133+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:20:37.140+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:20:37.140+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-16 02:00:00+00:00, run_after=2026-03-17 02:00:00+00:00
+[2026-03-18T07:20:37.146+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.059 seconds
+[2026-03-18T07:21:31.711+0530] {processor.py:161} INFO - Started process (PID=2467) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:21:31.714+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:21:31.714+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:21:31.714+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:21:31.725+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:21:31.736+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:21:31.736+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:21:31.763+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:21:31.763+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-16 02:00:00+00:00, run_after=2026-03-17 02:00:00+00:00
+[2026-03-18T07:21:31.769+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.058 seconds
+[2026-03-18T07:23:36.882+0530] {processor.py:161} INFO - Started process (PID=3281) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:23:36.883+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:23:36.883+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:23:36.883+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:23:36.893+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:23:36.952+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:23:36.952+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:23:36.957+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:23:36.957+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-16 02:00:00+00:00, run_after=2026-03-17 02:00:00+00:00
+[2026-03-18T07:23:36.964+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.082 seconds
+[2026-03-18T07:25:02.367+0530] {processor.py:161} INFO - Started process (PID=3534) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:25:02.368+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:25:02.368+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:25:02.368+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:25:02.379+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:25:02.414+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:25:02.414+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:25:02.419+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:25:02.419+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-16 02:00:00+00:00, run_after=2026-03-17 02:00:00+00:00
+[2026-03-18T07:25:02.426+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.059 seconds
+[2026-03-18T07:26:26.174+0530] {processor.py:161} INFO - Started process (PID=3781) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:26:26.175+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:26:26.175+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:26:26.175+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:26:26.185+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:26:26.219+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:26:26.219+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:26:26.224+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:26:26.224+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-16 02:00:00+00:00, run_after=2026-03-17 02:00:00+00:00
+[2026-03-18T07:26:26.230+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.057 seconds
+[2026-03-18T07:27:49.473+0530] {processor.py:161} INFO - Started process (PID=4024) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:27:49.473+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:27:49.474+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:27:49.473+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:27:49.484+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:27:49.519+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:27:49.519+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:27:49.524+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:27:49.524+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-16 02:00:00+00:00, run_after=2026-03-17 02:00:00+00:00
+[2026-03-18T07:27:49.530+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.058 seconds
+[2026-03-18T07:29:10.408+0530] {processor.py:161} INFO - Started process (PID=4270) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:29:10.409+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:29:10.409+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:29:10.409+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:29:10.419+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:29:10.454+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:29:10.453+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:29:10.459+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:29:10.459+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-16 02:00:00+00:00, run_after=2026-03-17 02:00:00+00:00
+[2026-03-18T07:29:10.465+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.057 seconds
+[2026-03-18T07:30:32.557+0530] {processor.py:161} INFO - Started process (PID=4510) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:30:32.558+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:30:32.558+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:30:32.558+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:30:32.568+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:30:32.603+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:30:32.603+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:30:32.608+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:30:32.608+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:30:32.614+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.057 seconds
+[2026-03-18T07:31:54.858+0530] {processor.py:161} INFO - Started process (PID=4759) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:31:54.859+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:31:54.859+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:31:54.859+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:31:54.869+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:31:54.904+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:31:54.904+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:31:54.910+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:31:54.910+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:31:54.916+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.058 seconds
+[2026-03-18T07:33:19.391+0530] {processor.py:161} INFO - Started process (PID=5002) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:33:19.392+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:33:19.392+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:33:19.392+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:33:19.402+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:33:19.437+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:33:19.437+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:33:19.442+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:33:19.442+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:33:19.449+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.058 seconds
+[2026-03-18T07:34:49.881+0530] {processor.py:161} INFO - Started process (PID=5315) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:34:49.882+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:34:49.883+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:34:49.883+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:34:49.896+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:34:49.931+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:34:49.931+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:34:49.938+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:34:49.938+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:34:49.945+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.064 seconds
+[2026-03-18T07:36:25.022+0530] {processor.py:161} INFO - Started process (PID=5598) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:36:25.023+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:36:25.023+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:36:25.023+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:36:25.034+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:36:25.068+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:36:25.068+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:36:25.074+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:36:25.073+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:36:25.080+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.058 seconds
+[2026-03-18T07:37:52.457+0530] {processor.py:161} INFO - Started process (PID=5860) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:37:52.457+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:37:52.458+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:37:52.458+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:37:52.472+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:37:52.509+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:37:52.509+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:37:52.516+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:37:52.516+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:37:52.523+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.066 seconds
+[2026-03-18T07:39:24.442+0530] {processor.py:161} INFO - Started process (PID=6178) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:39:24.442+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:39:24.443+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:39:24.443+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:39:24.453+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:39:24.488+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:39:24.488+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:39:24.493+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:39:24.493+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:39:24.499+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.058 seconds
+[2026-03-18T07:40:53.905+0530] {processor.py:161} INFO - Started process (PID=6526) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:40:53.906+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:40:53.906+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:40:53.906+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:40:53.919+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:40:53.955+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:40:53.955+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:40:53.962+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:40:53.962+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:40:53.968+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.063 seconds
+[2026-03-18T07:42:35.475+0530] {processor.py:161} INFO - Started process (PID=6900) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:42:35.476+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:42:35.476+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:42:35.476+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:42:35.488+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:42:35.525+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:42:35.525+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:42:35.531+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:42:35.531+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:42:35.539+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.064 seconds
+[2026-03-18T07:44:06.229+0530] {processor.py:161} INFO - Started process (PID=7216) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:44:06.230+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:44:06.230+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:44:06.230+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:44:06.243+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:44:06.279+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:44:06.279+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:44:06.285+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:44:06.285+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:44:06.290+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.062 seconds
+[2026-03-18T07:45:32.760+0530] {processor.py:161} INFO - Started process (PID=7509) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:45:32.762+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:45:32.762+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:45:32.762+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:45:32.772+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:45:32.806+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:45:32.806+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:45:32.811+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:45:32.811+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:45:32.817+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.057 seconds
+[2026-03-18T07:46:53.526+0530] {processor.py:161} INFO - Started process (PID=7775) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:46:53.528+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:46:53.528+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:46:53.528+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:46:53.538+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:46:53.574+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:46:53.574+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:46:53.579+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:46:53.579+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:46:53.585+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.059 seconds
+[2026-03-18T07:48:16.538+0530] {processor.py:161} INFO - Started process (PID=8130) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:48:16.539+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:48:16.539+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:48:16.539+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:48:16.551+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:48:16.586+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:48:16.586+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:48:16.591+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:48:16.591+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:48:16.597+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.059 seconds
+[2026-03-18T07:49:42.558+0530] {processor.py:161} INFO - Started process (PID=8722) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:49:42.559+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:49:42.559+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:49:42.559+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:49:42.572+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:49:42.606+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:49:42.606+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:49:42.611+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:49:42.611+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:49:42.616+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.059 seconds
+[2026-03-18T07:51:10.169+0530] {processor.py:161} INFO - Started process (PID=9009) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:51:10.172+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:51:10.172+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:51:10.172+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:51:10.183+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:51:10.218+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:51:10.217+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:51:10.223+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:51:10.222+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:51:10.228+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.059 seconds
+[2026-03-18T07:52:36.200+0530] {processor.py:161} INFO - Started process (PID=10662) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:52:36.203+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:52:36.203+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:52:36.203+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:52:36.213+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:52:36.223+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:52:36.223+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:52:36.249+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:52:36.249+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:52:36.256+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.056 seconds
+[2026-03-18T07:54:41.499+0530] {processor.py:161} INFO - Started process (PID=11043) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:54:41.501+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:54:41.501+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:54:41.501+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:54:41.512+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:54:41.570+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:54:41.570+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:54:41.575+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:54:41.575+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:54:41.581+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.082 seconds
+[2026-03-18T07:56:15.675+0530] {processor.py:161} INFO - Started process (PID=11315) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:56:15.676+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:56:15.676+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:56:15.676+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:56:15.686+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:56:15.720+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:56:15.720+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:56:15.726+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:56:15.725+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:56:15.731+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.056 seconds
+[2026-03-18T07:57:42.136+0530] {processor.py:161} INFO - Started process (PID=11565) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:57:42.141+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:57:42.141+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:57:42.141+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:57:42.152+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:57:42.189+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:57:42.189+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:57:42.194+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:57:42.194+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:57:42.201+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.065 seconds
+[2026-03-18T07:59:07.497+0530] {processor.py:161} INFO - Started process (PID=11816) to work on /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:59:07.498+0530] {processor.py:830} INFO - Processing file /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py for tasks to queue
+[2026-03-18T07:59:07.498+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:59:07.498+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:59:07.509+0530] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py
+[2026-03-18T07:59:07.543+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:59:07.543+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-03-18T07:59:07.548+0530] {logging_mixin.py:188} INFO - [2026-03-18T07:59:07.548+0530] {dag.py:3834} INFO - Setting next_dagrun for ecommerce_pipeline to 2026-03-17 02:00:00+00:00, run_after=2026-03-18 02:00:00+00:00
+[2026-03-18T07:59:07.554+0530] {processor.py:183} INFO - Processing /Users/vybhavswaroop/Desktop/untitled folder 3/ecommerce_platform/airflow/dags/airflow_dag.py took 0.058 seconds

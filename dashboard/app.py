@@ -8,7 +8,8 @@ import plotly.express as px
 st.set_page_config(page_title="E-commerce Analytics", layout="wide")
 
 st.sidebar.header("Configuration")
-demo_mode = st.sidebar.checkbox("🚀 Enable Demo Mode (Offline)", value=False, help="Bypass Kafka/DuckDB and read precomputed data from Parquet files")
+env_demo = os.getenv("DEMO_MODE", "false").lower() == "true"
+demo_mode = st.sidebar.checkbox("🚀 Enable Demo Mode (Offline)", value=env_demo, help="Bypass Kafka/DuckDB and read precomputed data from Parquet files")
 
 db_path = os.getenv('DB_PATH', 'data/ecommerce.db')
 dl_path = os.getenv('DEAD_LETTER_PATH', 'data/dead_letter')

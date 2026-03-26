@@ -2,8 +2,8 @@ import duckdb
 import os
 import pandas as pd
 
-DB_PATH = os.getenv('DB_PATH', '../data/ecommerce.db')
-DEMO_DATA_DIR = '../data/demo'
+DB_PATH = os.getenv('DB_PATH', 'data/ecommerce.db')
+DEMO_DATA_DIR = 'data/demo'
 
 os.makedirs(DEMO_DATA_DIR, exist_ok=True)
 

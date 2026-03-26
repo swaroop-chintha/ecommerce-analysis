@@ -2,6 +2,6 @@ ecommerce_platform:
   outputs:
     dev:
       type: duckdb
-      path: ../data/warehouse.duckdb
+      path: ../data/ecommerce.duckdb
       schema: main
   target: dev
