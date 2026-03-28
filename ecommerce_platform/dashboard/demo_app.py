@@ -126,7 +126,8 @@ elif page == "Product Analytics":
             
         with col2:
             st.subheader("Add to Cart Rate by Category")
-            cat_perf['cart_rate'] = (cat_perf['adds_to_cart'] / cat_perf['views'] * 100).fillna(0)
+            import numpy as np
+            cat_perf['cart_rate'] = np.where(cat_perf['views'] > 0, (cat_perf['adds_to_cart'] / cat_perf['views'] * 100), 0)
             fig_rate = px.bar(cat_perf, x='category', y='cart_rate', title='Add to Cart Rate (%)')
             st.plotly_chart(fig_rate, use_container_width=True)
 
@@ -137,8 +138,8 @@ elif page == "User Funnel":
         st.subheader("Active Session Funnel")
         # Assuming df_funnel has funnel_step and unique_sessions
         fig_funnel = go.Figure(go.Funnel(
-            y = df_funnel['funnel_step'],
-            x = df_funnel['unique_sessions'],
+            x = df_funnel['funnel_step'],
+            y = df_funnel['unique_sessions'],
             textinfo = "value+percent initial"
         ))
         fig_funnel.update_layout(title="Customer Journey Consolidation")

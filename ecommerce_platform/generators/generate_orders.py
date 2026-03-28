@@ -78,12 +78,13 @@ def generate_users(n=10000):
     print(f"Generated {n} users.")
 
 def generate_products(n=500):
-    categories = ['Electronics', 'Clothing', 'Books', 'Home', 'Sports']
+    categories = ['Electronics', 'Clothing', 'Home', 'Books', 'Sports']
+    weights = [40, 25, 15, 10, 10]
     products = []
     for _ in range(n):
         products.append((
             fake.word().capitalize() + ' ' + fake.word().capitalize(),
-            random.choice(categories),
+            random.choices(categories, weights=weights)[0],
             round(random.uniform(10, 5000), 2),
             fake.company()
         ))
@@ -107,15 +108,23 @@ def random_date_realistic():
     now = datetime.now()
     start = now - timedelta(days=365)
     
-    # 40% higher on weekends => weekend weight is 1.4, weekday weight is 1.0
     days_offsets = list(range(365))
     day_weights = []
     for d in days_offsets:
         dt = start + timedelta(days=d)
+        
+        # Baseline gradual growth over the year
+        weight = 1.0 + (d / 365.0) * 2.0
+        
+        # Q4 Holiday spike (Oct, Nov, Dec)
+        if dt.month in [10, 11, 12]:
+            weight *= 2.5
+            
+        # Weekend multiplier
         if dt.weekday() >= 5: # Saturday or Sunday
-            day_weights.append(1.4)
-        else:
-            day_weights.append(1.0)
+            weight *= 1.5
+            
+        day_weights.append(weight)
             
     chosen_offset = random.choices(days_offsets, weights=day_weights)[0]
     date_part = start + timedelta(days=chosen_offset)

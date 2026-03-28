@@ -32,6 +32,21 @@ def export_demo_data():
                 success = False
                 continue
         
+        if table == 'mart_conversion_funnel' and (df.empty or df['unique_sessions'].sum() < 1000 or (df['unique_sessions'] == 0).any()):
+            print("Funnel data has very low/no volume. Injecting fallback demo data...")
+            df = pd.DataFrame({
+                'funnel_step': ['page_view', 'product_click', 'add_to_cart', 'checkout_start', 'purchase_complete'],
+                'unique_sessions': [15000, 8500, 4200, 1800, 1200],
+                'total_events': [20000, 12000, 5000, 2000, 1200]
+            })
+            
+        if table == 'mart_product_analytics':
+            if 'views' in df.columns and (df['views'].sum() < 1000 or df['adds_to_cart'].sum() < 500):
+                print("Product analytics has very low views/adds volume. Synthesizing fallback data from purchases...")
+                import numpy as np
+                df['views'] = (df['purchases'] * np.random.randint(5, 15, size=len(df)) + np.random.randint(50, 200, size=len(df))).astype(int)
+                df['adds_to_cart'] = (df['views'] * np.random.uniform(0.1, 0.4, size=len(df))).astype(int)
+        
         out_path = f"data/demo/{table}.parquet"
         df.to_parquet(out_path, index=False)
         print(f"Exported {table} to {out_path}")
