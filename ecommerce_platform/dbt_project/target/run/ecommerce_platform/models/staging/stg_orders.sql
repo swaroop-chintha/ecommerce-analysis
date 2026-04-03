@@ -2,15 +2,16 @@
   
   create view "warehouse"."main"."stg_orders__dbt_tmp" as (
     with source as (
-    select * from "warehouse"."raw"."orders"
+    select * from sqlite_scan('../data/ecommerce.db', 'orders')
 ),
 
 staged as (
-    select distinct
-        cast(order_id as integer) as order_id,
-        cast(user_id as integer) as user_id,
+    select
+        order_id,
+        user_id,
+        status,
+        -- Need to parse the ISO string to proper timestamp if it's text
         cast(created_at as timestamp) as created_at,
-        lower(trim(status)) as status,
         cast(total_amount as double) as total_amount
     from source
     where order_id is not null
